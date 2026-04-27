@@ -11,13 +11,13 @@ class RefalFalah {
     public $name;
     public $age;
     public $pronouns;
-    public $opucation;
+    public $occupation;
 
     public function __construct() {
         $this->name = "Refal Falah";
-        $this->age = 18;
+        $this->age = null; // unknown / mysterious 😏
         $this->pronouns = "He/Him";
-        $this->opucation = "Student";
+        $this->occupation = "Worker";
     }
 }
 ```
