@@ -7,31 +7,31 @@
 <line x1="406" y1="42" x2="406" y2="552" stroke="#30363d"/>
 <text x="43" y="58" fill="#3fb950" font-size="16" font-weight="bold" >refal@github:~</text>
 <text x="43" y="82" fill="#8b949e" font-size="13" font-weight="normal" >./whoami --portrait</text>
-<text x="43" y="114" fill="#86c8a4" font-size="14" font-weight="normal" >*++.:..- -+**##===-------------:-==-==</text>
-<text x="43" y="130" fill="#86c8a4" font-size="14" font-weight="normal" >+++.:..: -+**##===-----------==++--=+=</text>
-<text x="43" y="146" fill="#86c8a4" font-size="14" font-weight="normal" >+++.:..: =+**##===---------=++++=-====</text>
-<text x="43" y="162" fill="#86c8a4" font-size="14" font-weight="normal" >++= :.:: =+**##**#==-----=++++=-::----</text>
-<text x="43" y="178" fill="#86c8a4" font-size="14" font-weight="normal" >++= -.:: =+*%%+#=*+=---=+++++=------==</text>
-<text x="43" y="194" fill="#86c8a4" font-size="14" font-weight="normal" >++= -.:: -=+*%++===--=+*++++++=-----==</text>
-<text x="43" y="210" fill="#86c8a4" font-size="14" font-weight="normal" >++= : :: :-**#*+==++++***+++==------==</text>
-<text x="43" y="226" fill="#86c8a4" font-size="14" font-weight="normal" >++= : :..::**#*==+%%*+++=----------===</text>
-<text x="43" y="242" fill="#86c8a4" font-size="14" font-weight="normal" >++- : :..:-*+-*=++++=---------------==</text>
-<text x="43" y="258" fill="#86c8a4" font-size="14" font-weight="normal" >++- - :..:-=--*+++++---=-------:----==</text>
-<text x="43" y="274" fill="#86c8a4" font-size="14" font-weight="normal" >++- -:-..--=-=##%%+=------------======</text>
-<text x="43" y="290" fill="#86c8a4" font-size="14" font-weight="normal" >++- -=-..-==-=##%@#*=----------===+===</text>
-<text x="43" y="306" fill="#86c8a4" font-size="14" font-weight="normal" >++- =+=.--==-=#%%@*-:-=---==---===++==</text>
-<text x="43" y="322" fill="#86c8a4" font-size="14" font-weight="normal" >++- =+=.-===-=*%@%=*=--===+=+======++=</text>
-<text x="43" y="338" fill="#86c8a4" font-size="14" font-weight="normal" >++- +==.-++=-=*@@#+++-=+++*+*==---=**=</text>
-<text x="43" y="354" fill="#86c8a4" font-size="14" font-weight="normal" >*#+:+=+:-=+=-+==@%+*#+-=====+==:--=**+</text>
-<text x="43" y="370" fill="#86c8a4" font-size="14" font-weight="normal" >%@+-*=+:-:+==*+:%@%%#==+==--===---+**+</text>
-<text x="43" y="386" fill="#86c8a4" font-size="14" font-weight="normal" >%@+:+++:--+=**++%@@%+-===+=-===---++*=</text>
-<text x="43" y="402" fill="#86c8a4" font-size="14" font-weight="normal" >%@+-+++-==++**#*#@@@+===+++====--=++*=</text>
-<text x="43" y="418" fill="#86c8a4" font-size="14" font-weight="normal" >%@+=+++==++*#%#**@@@*++++*+=+*+--=+**=</text>
-<text x="43" y="434" fill="#86c8a4" font-size="14" font-weight="normal" >@@+=++*==+*%%%##+@@@+==++*+++*+--+**+-</text>
-<text x="43" y="450" fill="#86c8a4" font-size="14" font-weight="normal" >###****+++#@%%%#*@%@+---=+=+=+#==+**+-</text>
-<text x="43" y="466" fill="#86c8a4" font-size="14" font-weight="normal" >--=++*****#%%@%%#%@@#****#**#@@#*++*==</text>
-<text x="43" y="482" fill="#86c8a4" font-size="14" font-weight="normal" >::---====+++*#%#*%@%**###%##%@@##+++==</text>
-<text x="43" y="498" fill="#86c8a4" font-size="14" font-weight="normal" >============++##*@@*****####%%@%#++===</text>
+<text x="43" y="114" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@@@%%%@@@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="130" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@@#++*#@@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="146" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@*=---+##@@@@@@@@@@@@@@@@</text>
+<text x="43" y="162" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@%=++==**+%@@@@@@@@@@@@@@@</text>
+<text x="43" y="178" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@#+=+*-=+*+*%@@@@@@@@@@@@@@</text>
+<text x="43" y="194" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@#--:::-===*%@@@@@@@@@@@@@@</text>
+<text x="43" y="210" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@--::-=+=+#@@@@@@@@@@@@@@@</text>
+<text x="43" y="226" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@%+::-++=+@@@@@@@@@@@@@@@@</text>
+<text x="43" y="242" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%--=+*+#@@@@@@@@@@@@@@@@</text>
+<text x="43" y="258" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@@===+++%@@@@@@@@@@@@@@@@</text>
+<text x="43" y="274" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@@==-=+*%@@@@@@@@@@@@@@@@</text>
+<text x="43" y="290" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%--=****@@@@@@@@@@@@@@@@</text>
+<text x="43" y="306" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@#.:-=*=*@@@@@@@@@@@@@@@@</text>
+<text x="43" y="322" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@%%..-=-.#@@@@@@@@@@@@@@@@</text>
+<text x="43" y="338" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%. .:..#@@@%%%@@@@@@@@@@</text>
+<text x="43" y="354" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%...  .%@@@@@@%%@@@@@@@@</text>
+<text x="43" y="370" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@%@@@@%:    :@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="386" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@%%@%%@%.    -@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="402" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@%%@%%@%:    +@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="418" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@%%@%:    *@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="434" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%:    *@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="450" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%:   .#@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="466" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%:   .%@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="482" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%:   :%@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="498" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%-   -@@@@@@@@@@@@@@@@@@</text>
 <text x="43" y="541" fill="#3fb950" font-size="14" font-weight="bold" >BUILD  /  DEBUG  /  DEPLOY</text>
 <text x="432" y="65" fill="#e6edf3" font-size="19" font-weight="bold" >refal@github</text>
 <text x="432" y="88" fill="#30363d" font-size="15" font-weight="normal" >──────────────────────────────────────────</text>
@@ -45,14 +45,13 @@
 <text x="432" y="294" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="294" fill="#ffa657" font-size="15" font-weight="normal" >Frontend</text><text x="608" y="294" fill="#a5d6ff" font-size="15" font-weight="normal" >JavaScript, React, Tailwind</text>
 <text x="432" y="320" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="320" fill="#ffa657" font-size="15" font-weight="normal" >Database</text><text x="608" y="320" fill="#a5d6ff" font-size="15" font-weight="normal" >MySQL, PostgreSQL</text>
 <text x="432" y="346" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="346" fill="#ffa657" font-size="15" font-weight="normal" >Infra</text><text x="608" y="346" fill="#a5d6ff" font-size="15" font-weight="normal" >Linux, Nginx, AWS EC2</text>
-<text x="432" y="372" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="372" fill="#ffa657" font-size="15" font-weight="normal" >Platforms</text><text x="608" y="372" fill="#a5d6ff" font-size="15" font-weight="normal" >WordPress, Moodle</text>
-<text x="432" y="413" fill="#e6edf3" font-size="15" font-weight="bold" >- Contact</text>
-<text x="529" y="413" fill="#30363d" font-size="15" font-weight="normal" >────────────────────────────────────</text>
-<text x="432" y="442" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="442" fill="#ffa657" font-size="15" font-weight="normal" >Website</text><text x="608" y="442" fill="#a5d6ff" font-size="15" font-weight="normal" >refalfalah.site</text>
-<text x="432" y="468" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="468" fill="#ffa657" font-size="15" font-weight="normal" >Email</text><text x="608" y="468" fill="#a5d6ff" font-size="15" font-weight="normal" >refalfalah10@gmail.com</text>
-<text x="432" y="509" fill="#e6edf3" font-size="15" font-weight="bold" >- GitHub Stats</text>
-<text x="558" y="509" fill="#30363d" font-size="15" font-weight="normal" >────────────────────────────────</text>
-<text x="432" y="538" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="538" fill="#ffa657" font-size="15" font-weight="normal" >Repos</text><text x="608" y="538" fill="#a5d6ff" font-size="15" font-weight="normal" >4  |  Stars: 3</text>
-<text x="432" y="564" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="564" fill="#ffa657" font-size="15" font-weight="normal" >Followers</text><text x="608" y="564" fill="#a5d6ff" font-size="15" font-weight="normal" >13</text>
+<text x="432" y="399" fill="#e6edf3" font-size="15" font-weight="bold" >- Contact</text>
+<text x="529" y="399" fill="#30363d" font-size="15" font-weight="normal" >────────────────────────────────────</text>
+<text x="432" y="428" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="428" fill="#ffa657" font-size="15" font-weight="normal" >Website</text><text x="608" y="428" fill="#a5d6ff" font-size="15" font-weight="normal" >refalfalah.site</text>
+<text x="432" y="454" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="454" fill="#ffa657" font-size="15" font-weight="normal" >Email</text><text x="608" y="454" fill="#a5d6ff" font-size="15" font-weight="normal" >refalfalah10@gmail.com</text>
+<text x="432" y="503" fill="#e6edf3" font-size="15" font-weight="bold" >- GitHub Stats</text>
+<text x="558" y="503" fill="#30363d" font-size="15" font-weight="normal" >────────────────────────────────</text>
+<text x="432" y="532" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="532" fill="#ffa657" font-size="15" font-weight="normal" >Repos</text><text x="608" y="532" fill="#a5d6ff" font-size="15" font-weight="normal" >4  |  Stars: 3</text>
+<text x="432" y="558" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="558" fill="#ffa657" font-size="15" font-weight="normal" >Followers</text><text x="608" y="558" fill="#a5d6ff" font-size="15" font-weight="normal" >13</text>
 <text x="43" y="568" fill="#8b949e" font-size="12" font-weight="normal" >updated 2026-09-23 UTC</text>
 </svg>
