@@ -7,31 +7,31 @@
 <line x1="406" y1="42" x2="406" y2="552" stroke="#30363d"/>
 <text x="43" y="58" fill="#3fb950" font-size="16" font-weight="bold" >refal@github:~</text>
 <text x="43" y="82" fill="#8b949e" font-size="13" font-weight="normal" >./whoami --portrait</text>
-<text x="43" y="114" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@@@%%%@@@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="130" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@@#++*#@@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="146" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@*=---+##@@@@@@@@@@@@@@@@</text>
-<text x="43" y="162" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@%=++==**+%@@@@@@@@@@@@@@@</text>
-<text x="43" y="178" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@#+=+*-=+*+*%@@@@@@@@@@@@@@</text>
-<text x="43" y="194" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@#--:::-===*%@@@@@@@@@@@@@@</text>
-<text x="43" y="210" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@--::-=+=+#@@@@@@@@@@@@@@@</text>
-<text x="43" y="226" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@%+::-++=+@@@@@@@@@@@@@@@@</text>
-<text x="43" y="242" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%--=+*+#@@@@@@@@@@@@@@@@</text>
-<text x="43" y="258" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@@===+++%@@@@@@@@@@@@@@@@</text>
-<text x="43" y="274" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@@==-=+*%@@@@@@@@@@@@@@@@</text>
-<text x="43" y="290" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%--=****@@@@@@@@@@@@@@@@</text>
-<text x="43" y="306" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@#.:-=*=*@@@@@@@@@@@@@@@@</text>
-<text x="43" y="322" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@%%..-=-.#@@@@@@@@@@@@@@@@</text>
-<text x="43" y="338" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%. .:..#@@@%%%@@@@@@@@@@</text>
-<text x="43" y="354" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%...  .%@@@@@@%%@@@@@@@@</text>
-<text x="43" y="370" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@%@@@@%:    :@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="386" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@%%@%%@%.    -@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="402" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@%%@%%@%:    +@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="418" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@%%@%:    *@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="434" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%:    *@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="450" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@%@%:   .#@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="466" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%:   .%@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="482" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%:   :%@@@@@@@@@@@@@@@@@</text>
-<text x="43" y="498" fill="#86c8a4" font-size="14" font-weight="normal" >@@@@@@@@@@@@@@%-   -@@@@@@@@@@@@@@@@@@</text>
+<text x="43" y="114" fill="#86c8a4" font-size="14" font-weight="normal" ></text>
+<text x="43" y="130" fill="#86c8a4" font-size="14" font-weight="normal" >                  .</text>
+<text x="43" y="146" fill="#86c8a4" font-size="14" font-weight="normal" >              ..... .. .</text>
+<text x="43" y="162" fill="#86c8a4" font-size="14" font-weight="normal" >               .  . ..  ...</text>
+<text x="43" y="178" fill="#86c8a4" font-size="14" font-weight="normal" >       .     .  .  .  .  ..</text>
+<text x="43" y="194" fill="#86c8a4" font-size="14" font-weight="normal" >      ...     ....  .  .  .</text>
+<text x="43" y="210" fill="#86c8a4" font-size="14" font-weight="normal" >     ..     :-+*+===-.  .  .</text>
+<text x="43" y="226" fill="#86c8a4" font-size="14" font-weight="normal" >       .  .+#%%@@@@@%*=:.:  .</text>
+<text x="43" y="242" fill="#86c8a4" font-size="14" font-weight="normal" >        . %###*+#@@*==+=+#. .</text>
+<text x="43" y="258" fill="#86c8a4" font-size="14" font-weight="normal" >       ++:@%#*=+#@@-**-++#=--:</text>
+<text x="43" y="274" fill="#86c8a4" font-size="14" font-weight="normal" >       #@*@@@@%@@@@##@%%#%+:-</text>
+<text x="43" y="290" fill="#86c8a4" font-size="14" font-weight="normal" >       -@@@@@@@@@@@%*%@@#%+=.</text>
+<text x="43" y="306" fill="#86c8a4" font-size="14" font-weight="normal" >        -*#@@@@@@#%++#@###:.</text>
+<text x="43" y="322" fill="#86c8a4" font-size="14" font-weight="normal" >           %@@@@%%#***#*%=</text>
+<text x="43" y="338" fill="#86c8a4" font-size="14" font-weight="normal" >           .@@@%#***+++**</text>
+<text x="43" y="354" fill="#86c8a4" font-size="14" font-weight="normal" >            *#*#%##**+=+:</text>
+<text x="43" y="370" fill="#86c8a4" font-size="14" font-weight="normal" >            *#***+++==-==</text>
+<text x="43" y="386" fill="#86c8a4" font-size="14" font-weight="normal" >           :%###*+=-----#..</text>
+<text x="43" y="402" fill="#86c8a4" font-size="14" font-weight="normal" >         . :@#####*+===#*  . .</text>
+<text x="43" y="418" fill="#86c8a4" font-size="14" font-weight="normal" >   ... .  ..%%%#***+*#%%-.  . .....</text>
+<text x="43" y="434" fill="#86c8a4" font-size="14" font-weight="normal" > .....  .  .###%####%##%: .  . .. ...</text>
+<text x="43" y="450" fill="#86c8a4" font-size="14" font-weight="normal" >.  .  .  .  *##**######*.  .  .  .  .</text>
+<text x="43" y="466" fill="#86c8a4" font-size="14" font-weight="normal" > .  .  .  . *#########%= .  .  .  ....</text>
+<text x="43" y="482" fill="#86c8a4" font-size="14" font-weight="normal" >  .  .  .  .+#********#:  .  .  .  .</text>
+<text x="43" y="498" fill="#86c8a4" font-size="14" font-weight="normal" >.  .  .  .  +********** .  .  .  .  .</text>
 <text x="43" y="541" fill="#3fb950" font-size="14" font-weight="bold" >BUILD  /  DEBUG  /  DEPLOY</text>
 <text x="432" y="65" fill="#e6edf3" font-size="19" font-weight="bold" >refal@github</text>
 <text x="432" y="88" fill="#30363d" font-size="15" font-weight="normal" >──────────────────────────────────────────</text>

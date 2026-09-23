@@ -4,10 +4,11 @@ import io
 import os
 from datetime import datetime, timezone
 from pathlib import Path
+from statistics import median
 from urllib.request import Request, urlopen
 from xml.sax.saxutils import escape
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageChops, ImageEnhance, ImageFilter, ImageOps
 
 
 USERNAME = "RefalFalah"
@@ -61,15 +62,129 @@ def github_stats():
     return user["public_repos"], user["followers"], stars
 
 
+def background_mask(avatar):
+    """Build a soft foreground mask by comparing pixels with the avatar corners."""
+    width, height = avatar.size
+    sample = max(4, min(width, height) // 32)
+    corner_pixels = []
+    for left, top in ((0, 0), (width - sample, 0), (0, height - sample),
+                      (width - sample, height - sample)):
+        for y in range(top, top + sample):
+            for x in range(left, left + sample):
+                corner_pixels.append(avatar.getpixel((x, y)))
+
+    background = tuple(int(median(pixel[channel] for pixel in corner_pixels)) for channel in range(3))
+    delta = ImageChops.difference(avatar, Image.new("RGB", avatar.size, background))
+    red, green, blue = delta.split()
+    distance = ImageChops.lighter(ImageChops.lighter(red, green), blue)
+
+    # Ignore near-black compression noise while keeping the dark jacket and hair.
+    mask = distance.point(lambda value: max(0, min(255, (value - 3) * 17)))
+    return mask.filter(ImageFilter.MedianFilter(3)).filter(ImageFilter.GaussianBlur(0.6))
+
+
+def crop_to_subject(avatar, mask):
+    """Crop tightly around the head and upper torso."""
+    bounds = mask.point(lambda value: 255 if value > 24 else 0).getbbox()
+    if not bounds:
+        return avatar, Image.new("L", avatar.size, 255)
+
+    left, top, right, bottom = bounds
+    subject_width = right - left
+    subject_height = bottom - top
+    centre_x = (left + right) / 2
+    crop_width = subject_width * 0.64
+    box = (
+        max(0, round(centre_x - crop_width / 2)),
+        max(0, round(top - subject_height * 0.04)),
+        min(avatar.width, round(centre_x + crop_width / 2)),
+        min(avatar.height, round(top + subject_height * 0.64)),
+    )
+    return avatar.crop(box), mask.crop(box)
+
+
+def enhance_portrait(subject, mask):
+    """Lift facial detail without turning dark clothing into a solid character block."""
+    grayscale = ImageOps.grayscale(subject)
+    grayscale = ImageOps.autocontrast(grayscale, cutoff=(1, 1), mask=mask)
+    grayscale = ImageEnhance.Contrast(grayscale).enhance(1.18)
+    grayscale = grayscale.point(lambda value: round(255 * ((value / 255) ** 0.82)))
+
+    # Portrait avatars conventionally place the face in the upper-centre region.
+    width, height = grayscale.size
+    face_box = (round(width * 0.2), round(height * 0.04),
+                round(width * 0.8), round(height * 0.62))
+    face = grayscale.crop(face_box)
+    face = ImageOps.autocontrast(face, cutoff=(1, 1))
+    face = ImageEnhance.Contrast(face).enhance(1.38)
+    face_blend = Image.new("L", grayscale.size, 0)
+    face_blend.paste(255, face_box)
+    face_blend = face_blend.filter(ImageFilter.GaussianBlur(max(3, round(width * 0.025))))
+    grayscale = Image.composite(
+        Image.new("L", grayscale.size, 0),
+        grayscale,
+        ImageChops.invert(mask),
+    )
+    face_layer = grayscale.copy()
+    face_layer.paste(face, face_box)
+    grayscale = Image.composite(face_layer, grayscale, face_blend)
+
+    # Tone down the shirt and jacket so the face remains the visual anchor.
+    lower_blend = Image.new("L", grayscale.size, 0)
+    lower_pixels = lower_blend.load()
+    fade_start = round(height * 0.62)
+    for y in range(fade_start, height):
+        opacity = round(255 * (y - fade_start) / max(1, height - fade_start))
+        for x in range(width):
+            lower_pixels[x, y] = opacity
+    darker_body = ImageEnhance.Brightness(grayscale).enhance(0.7)
+    grayscale = Image.composite(darker_body, grayscale, lower_blend)
+    grayscale = grayscale.filter(ImageFilter.UnsharpMask(radius=1.4, percent=135, threshold=3))
+
+    # A light posterization makes tonal groups survive the tiny terminal grid.
+    return grayscale.point(
+        lambda value: 0 if value < 14 else 255 if value > 242 else (value // 24) * 24
+    )
+
+
 def avatar_art():
-    """Turn the public GitHub avatar into a small terminal-style ASCII portrait."""
-    avatar = Image.open(io.BytesIO(fetch(f"https://github.com/{USERNAME}.png?size=256"))).convert("RGB")
-    avatar = ImageOps.fit(avatar, (38, 25))
-    avatar = ImageOps.grayscale(avatar)
-    shades = "@%#*+=-:. "
-    pixels = avatar.tobytes()
-    return ["".join(shades[min(pixel * len(shades) // 256, len(shades) - 1)] for pixel in pixels[y * 38:(y + 1) * 38])
-            for y in range(25)]
+    """Turn the public GitHub avatar into a face-first terminal ASCII portrait."""
+    avatar = Image.open(io.BytesIO(fetch(f"https://github.com/{USERNAME}.png?size=512"))).convert("RGB")
+    mask = background_mask(avatar)
+    subject, mask = crop_to_subject(avatar, mask)
+    portrait = enhance_portrait(subject, mask)
+
+    columns = 38
+    character_aspect = 0.54  # Consolas glyph width relative to the 16 px line height.
+    rows = min(25, max(18, round(subject.height / subject.width * columns * character_aspect)))
+    size = (columns, rows)
+    portrait = portrait.resize(size, Image.Resampling.LANCZOS)
+    mask = mask.resize(size, Image.Resampling.LANCZOS)
+    edges = portrait.filter(ImageFilter.FIND_EDGES)
+
+    # Low luminance now means whitespace; brighter facial features carry denser glyphs.
+    shades = " .:-=+*#%@"
+    pixels = portrait.tobytes()
+    mask_pixels = mask.tobytes()
+    edge_pixels = edges.tobytes()
+    lines = []
+    for y in range(rows):
+        line = []
+        for x in range(columns):
+            index = y * columns + x
+            if mask_pixels[index] < 52:
+                character = " "
+            else:
+                shade = min(len(shades) - 1, pixels[index] * len(shades) // 256)
+                character = shades[shade]
+                if character == " ":
+                    if edge_pixels[index] > 42 or (
+                        mask_pixels[index] > 150 and (x + 2 * y) % 3 == 0
+                    ):
+                        character = "."
+            line.append(character)
+        lines.append("".join(line).rstrip())
+    return lines
 
 
 def text(x, y, value, color, size=15, weight="normal", extra=""):
