@@ -1,44 +1,166 @@
-<h1>Hi there 👋</h1>
+<div align="center">
 
-<p align="end">
-    <img src="https://komarev.com/ghpvc/?username=refalfalah&color=blue" alt="refalfalah" />
-</p>
+```text
+██████╗ ███████╗███████╗ █████╗ ██╗     
+██╔══██╗██╔════╝██╔════╝██╔══██╗██║     
+██████╔╝█████╗  █████╗  ███████║██║     
+██╔══██╗██╔══╝  ██╔══╝  ██╔══██║██║     
+██║  ██║███████╗██║     ██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚══════╝
 
+                REFAL FALAH
+```
 
+### `> Web Developer_`
 
-```php
-class RefalFalah {
-    public $name;
-    public $age;
-    public $pronouns;
-    public $occupation;
+<img src="https://komarev.com/ghpvc/?username=refalfalah&style=flat-square&label=VISITORS" />
 
-    public function __construct() {
-        $this->name = "Refal Falah";
-        $this->age = null; // unknown / mysterious 😏
-        $this->pronouns = "He/Him";
-        $this->occupation = "Worker";
-    }
+</div>
+
+---
+
+```bash
+refal@github:~$ whoami
+```
+
+```text
+Name        : Refal Falah
+Role        : Web Developer
+Environment : Linux / Windows
+Status      : Building things on the web...
+```
+
+```bash
+refal@github:~$ cat about-me.txt
+```
+
+```text
+> Backend-focused Web Developer.
+> Building applications with Laravel and PHP.
+> Managing Linux servers and production environments.
+> Working with APIs, databases, WordPress and Moodle.
+> Exploring AI-assisted development, automation and DevOps.
+```
+
+---
+
+```bash
+refal@github:~$ cat stack.json
+```
+
+```json
+{
+  "backend": [
+    "PHP",
+    "Laravel",
+    "REST API"
+  ],
+
+  "frontend": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+
+  "database": [
+    "MySQL",
+    "MariaDB",
+    "PostgreSQL"
+  ],
+
+  "cms_lms": [
+    "WordPress",
+    "Elementor",
+    "Moodle"
+  ],
+
+  "server": [
+    "Ubuntu",
+    "Nginx",
+    "PHP-FPM",
+    "Supervisor",
+    "Cron",
+    "PM2"
+  ],
+
+  "tools": [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "PowerShell"
+  ]
 }
 ```
 
-<h3 align="center">My Github Stats</h3>
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=refalfalah&show_icons=true&theme=tokyonight" width="395px">&nbsp;&nbsp;
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=refalfalah&layout=compact&theme=tokyonight">
+
+<img src="https://skillicons.dev/icons?i=php,laravel,js,html,css,mysql,postgres,git,github,linux,ubuntu,nginx,vscode&perline=7" />
+
 </div>
 
-<br>
+---
 
-<h3 align="center">Language and Tools</h3>
+```bash
+refal@github:~$ ./current_activity.sh
+```
+
+```text
+[+] Building Laravel applications
+[+] Maintaining production servers
+[+] Working with WordPress & Moodle
+[+] Integrating third-party APIs
+[+] Exploring AI-assisted development
+[+] Learning system architecture & DevOps
+```
+
+---
+
+```bash
+refal@github:~$ git stats
+```
+
 <div align="center">
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="">
-    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="">
-    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="">
-    <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="">
-    <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white">
-    <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="">
-    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="">
-    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=refalfalah&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=refalfalah&layout=compact&hide_border=true&theme=tokyonight" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=refalfalah&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+```bash
+refal@github:~$ cat philosophy.txt
+```
+
+```text
+while (alive) {
+    learn();
+    build();
+    breakThings();
+    debug();
+    deploy();
+}
+```
+
+---
+
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────┐
+│                                              │
+│     Build. Break. Debug. Deploy. Repeat.     │
+│                                              │
+└──────────────────────────────────────────────┘
+```
+
+<sub>Thanks for visiting my terminal.</sub>
+
 </div>
