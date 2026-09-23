@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="600" viewBox="0 0 1040 600" role="img" aria-labelledby="title desc">
+<title id="title">Refal Falah Fadhilah | Fullstack Developer</title>
+<desc id="desc">Terminal-inspired profile featuring an ASCII portrait, developer stack, contact information and GitHub statistics.</desc>
+<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}</style>
+<rect width="1040" height="600" rx="18" fill="#0d1117"/>
+<rect x="16" y="16" width="1008" height="568" rx="12" fill="#161b22" stroke="#30363d"/>
+<line x1="406" y1="42" x2="406" y2="552" stroke="#30363d"/>
+<text x="43" y="58" fill="#3fb950" font-size="16" font-weight="bold" >refal@github:~</text>
+<text x="43" y="82" fill="#8b949e" font-size="13" font-weight="normal" >./whoami --portrait</text>
+<text x="43" y="114" fill="#86c8a4" font-size="14" font-weight="normal" >*++.:..- -+**##===-------------:-==-==</text>
+<text x="43" y="130" fill="#86c8a4" font-size="14" font-weight="normal" >+++.:..: -+**##===-----------==++--=+=</text>
+<text x="43" y="146" fill="#86c8a4" font-size="14" font-weight="normal" >+++.:..: =+**##===---------=++++=-====</text>
+<text x="43" y="162" fill="#86c8a4" font-size="14" font-weight="normal" >++= :.:: =+**##**#==-----=++++=-::----</text>
+<text x="43" y="178" fill="#86c8a4" font-size="14" font-weight="normal" >++= -.:: =+*%%+#=*+=---=+++++=------==</text>
+<text x="43" y="194" fill="#86c8a4" font-size="14" font-weight="normal" >++= -.:: -=+*%++===--=+*++++++=-----==</text>
+<text x="43" y="210" fill="#86c8a4" font-size="14" font-weight="normal" >++= : :: :-**#*+==++++***+++==------==</text>
+<text x="43" y="226" fill="#86c8a4" font-size="14" font-weight="normal" >++= : :..::**#*==+%%*+++=----------===</text>
+<text x="43" y="242" fill="#86c8a4" font-size="14" font-weight="normal" >++- : :..:-*+-*=++++=---------------==</text>
+<text x="43" y="258" fill="#86c8a4" font-size="14" font-weight="normal" >++- - :..:-=--*+++++---=-------:----==</text>
+<text x="43" y="274" fill="#86c8a4" font-size="14" font-weight="normal" >++- -:-..--=-=##%%+=------------======</text>
+<text x="43" y="290" fill="#86c8a4" font-size="14" font-weight="normal" >++- -=-..-==-=##%@#*=----------===+===</text>
+<text x="43" y="306" fill="#86c8a4" font-size="14" font-weight="normal" >++- =+=.--==-=#%%@*-:-=---==---===++==</text>
+<text x="43" y="322" fill="#86c8a4" font-size="14" font-weight="normal" >++- =+=.-===-=*%@%=*=--===+=+======++=</text>
+<text x="43" y="338" fill="#86c8a4" font-size="14" font-weight="normal" >++- +==.-++=-=*@@#+++-=+++*+*==---=**=</text>
+<text x="43" y="354" fill="#86c8a4" font-size="14" font-weight="normal" >*#+:+=+:-=+=-+==@%+*#+-=====+==:--=**+</text>
+<text x="43" y="370" fill="#86c8a4" font-size="14" font-weight="normal" >%@+-*=+:-:+==*+:%@%%#==+==--===---+**+</text>
+<text x="43" y="386" fill="#86c8a4" font-size="14" font-weight="normal" >%@+:+++:--+=**++%@@%+-===+=-===---++*=</text>
+<text x="43" y="402" fill="#86c8a4" font-size="14" font-weight="normal" >%@+-+++-==++**#*#@@@+===+++====--=++*=</text>
+<text x="43" y="418" fill="#86c8a4" font-size="14" font-weight="normal" >%@+=+++==++*#%#**@@@*++++*+=+*+--=+**=</text>
+<text x="43" y="434" fill="#86c8a4" font-size="14" font-weight="normal" >@@+=++*==+*%%%##+@@@+==++*+++*+--+**+-</text>
+<text x="43" y="450" fill="#86c8a4" font-size="14" font-weight="normal" >###****+++#@%%%#*@%@+---=+=+=+#==+**+-</text>
+<text x="43" y="466" fill="#86c8a4" font-size="14" font-weight="normal" >--=++*****#%%@%%#%@@#****#**#@@#*++*==</text>
+<text x="43" y="482" fill="#86c8a4" font-size="14" font-weight="normal" >::---====+++*#%#*%@%**###%##%@@##+++==</text>
+<text x="43" y="498" fill="#86c8a4" font-size="14" font-weight="normal" >============++##*@@*****####%%@%#++===</text>
+<text x="43" y="541" fill="#3fb950" font-size="14" font-weight="bold" >BUILD  /  DEBUG  /  DEPLOY</text>
+<text x="432" y="65" fill="#e6edf3" font-size="19" font-weight="bold" >refal@github</text>
+<text x="432" y="88" fill="#30363d" font-size="15" font-weight="normal" >──────────────────────────────────────────</text>
+<text x="432" y="120" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="120" fill="#ffa657" font-size="15" font-weight="normal" >Name</text><text x="608" y="120" fill="#a5d6ff" font-size="15" font-weight="normal" >Refal Falah Fadhilah</text>
+<text x="432" y="146" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="146" fill="#ffa657" font-size="15" font-weight="normal" >Role</text><text x="608" y="146" fill="#a5d6ff" font-size="15" font-weight="normal" >Fullstack Developer</text>
+<text x="432" y="172" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="172" fill="#ffa657" font-size="15" font-weight="normal" >Location</text><text x="608" y="172" fill="#a5d6ff" font-size="15" font-weight="normal" >Bandung, Indonesia</text>
+<text x="432" y="198" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="198" fill="#ffa657" font-size="15" font-weight="normal" >Focus</text><text x="608" y="198" fill="#a5d6ff" font-size="15" font-weight="normal" >Web apps &amp; reliable systems</text>
+<text x="432" y="239" fill="#e6edf3" font-size="15" font-weight="bold" >- Tech Stack</text>
+<text x="548" y="239" fill="#30363d" font-size="15" font-weight="normal" >─────────────────────────────────</text>
+<text x="432" y="268" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="268" fill="#ffa657" font-size="15" font-weight="normal" >Backend</text><text x="608" y="268" fill="#a5d6ff" font-size="15" font-weight="normal" >PHP, Laravel, REST APIs</text>
+<text x="432" y="294" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="294" fill="#ffa657" font-size="15" font-weight="normal" >Frontend</text><text x="608" y="294" fill="#a5d6ff" font-size="15" font-weight="normal" >JavaScript, React, Tailwind</text>
+<text x="432" y="320" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="320" fill="#ffa657" font-size="15" font-weight="normal" >Database</text><text x="608" y="320" fill="#a5d6ff" font-size="15" font-weight="normal" >MySQL, PostgreSQL</text>
+<text x="432" y="346" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="346" fill="#ffa657" font-size="15" font-weight="normal" >Infra</text><text x="608" y="346" fill="#a5d6ff" font-size="15" font-weight="normal" >Linux, Nginx, AWS EC2</text>
+<text x="432" y="372" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="372" fill="#ffa657" font-size="15" font-weight="normal" >Platforms</text><text x="608" y="372" fill="#a5d6ff" font-size="15" font-weight="normal" >WordPress, Moodle</text>
+<text x="432" y="413" fill="#e6edf3" font-size="15" font-weight="bold" >- Contact</text>
+<text x="529" y="413" fill="#30363d" font-size="15" font-weight="normal" >────────────────────────────────────</text>
+<text x="432" y="442" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="442" fill="#ffa657" font-size="15" font-weight="normal" >Website</text><text x="608" y="442" fill="#a5d6ff" font-size="15" font-weight="normal" >refalfalah.site</text>
+<text x="432" y="468" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="468" fill="#ffa657" font-size="15" font-weight="normal" >Email</text><text x="608" y="468" fill="#a5d6ff" font-size="15" font-weight="normal" >refalfalah10@gmail.com</text>
+<text x="432" y="509" fill="#e6edf3" font-size="15" font-weight="bold" >- GitHub Stats</text>
+<text x="558" y="509" fill="#30363d" font-size="15" font-weight="normal" >────────────────────────────────</text>
+<text x="432" y="538" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="538" fill="#ffa657" font-size="15" font-weight="normal" >Repos</text><text x="608" y="538" fill="#a5d6ff" font-size="15" font-weight="normal" >4  |  Stars: 3</text>
+<text x="432" y="564" fill="#8b949e" font-size="15" font-weight="normal" >.</text><text x="451" y="564" fill="#ffa657" font-size="15" font-weight="normal" >Followers</text><text x="608" y="564" fill="#a5d6ff" font-size="15" font-weight="normal" >13</text>
+<text x="43" y="568" fill="#8b949e" font-size="12" font-weight="normal" >updated 2026-09-23 UTC</text>
+</svg>
